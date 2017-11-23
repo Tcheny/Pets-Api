@@ -26,3 +26,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.Card {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 260px;
+}
+
+.pets-img {
+  width: 200px;
+  height: 200px;
+}
+.Form {
+  margin: 40px;
+}

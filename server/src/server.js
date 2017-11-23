@@ -10,7 +10,7 @@ mongoose.connect('mongodb://localhost:27017/pets',()=>{
 });
 app.use(express.urlencoded({extended:false}));
 app.use(cors());
-app.use('/', controller);
+app.use('/pets', controller);
 
 app.listen(8080, ()=>{
     console.log('server is running')
